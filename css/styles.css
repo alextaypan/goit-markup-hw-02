@@ -1,0 +1,140 @@
+/* Основной цвет текста - #212121 */
+
+/* Вторичный цвет текста - #757575 */
+
+/* Акцент - #2196F3 */
+
+/* Цвет фона страницы - #FFFFFF */
+
+/* Цвет кнопок - #F5F4FA */
+
+/* Цвет ссылок в футере - rgba(255, 255, 255, 0.6);  */
+
+/* Цвет фона героя и футера - #2F303A */
+
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --contact-footer-color: rgba(255, 255, 255, 0.6);
+  --background-color: #ffffff;
+  --context-color: #2F303A;
+  --button-color: #F5F4FA;
+
+}
+
+body {
+  color: var(--primary-text-color)
+  background-color: var(--background-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Header */
+
+.logo {
+  color: var(--accent-color);
+}
+
+.site-nav .item {
+  color: var(--primary-text-color);
+}
+
+.site-nav .item:hover,
+.site-nav .item:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .item.current {
+  color: var(--accent-color);
+}
+
+.contacts-header .link {
+  color: var(--title-text-color);
+}
+
+.contacts-footer .link {
+  color: var(--contact-footer-color);
+}
+
+.contacts-header .link:hover,
+.contacts-header .link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-footer .link:hover,
+.contacts-footer .link:focus {
+  color: var(--accent-color);
+}
+
+.button-list .button {
+  color: var(--primary-text-color);
+  background-color: var(--button-color);
+}
+
+.button-list .button:hover,
+.button-list .button:focus {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
+
+.hero {
+  background-color: var(--context-color);
+}
+
+.hero-title {
+  color: var(--background-color)
+}
+
+.hero-button {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--primary-text-color);
+  background-color: var(--button-color);
+}
+
+.works-title {
+  color: var(--primary-text-color);
+}
+
+.works-descr {
+  color: var(--title-text-color);
+}
+
+.advantages-title {
+  color: var(--primary-text-color);
+}
+
+.advantages-descr {
+  color: var(--title-text-color);
+}
+
+.team-member {
+  color: var(--primary-text-color);
+}
+
+.team-position {
+  color: var(--title-text-color);
+}
+
+.content {
+  background-color: var(--context-color);
+}
+
+.accent-header {
+  color: var(--primary-text-color);
+}
+
+.accent-footer {
+  color: var(--background-color);
+}
+
+address {
+  color: var(--background-color);
+}
