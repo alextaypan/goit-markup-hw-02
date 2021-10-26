@@ -100,7 +100,6 @@ address {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--background-color);
 }
 
 /* Buttons */
@@ -154,7 +153,6 @@ address {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--background-color)
 }
 
 /* Works */
