@@ -164,7 +164,6 @@ address {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--primary-text-color);
 }
 
 .works-descr {
@@ -182,7 +181,6 @@ address {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-text-color);
 }
 
 .advantages-descr {
@@ -195,17 +193,16 @@ address {
 /* Team */
 
 .team-member {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .team-position {
-font-size: 16px;
-line-height: 1.19;
-letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
